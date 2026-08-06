@@ -1,0 +1,55 @@
+body{
+
+    margin:0;
+
+    background:#eef3fa;
+
+    font-family:Arial;
+
+}
+
+#container{
+
+    width:1040px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+h1{
+
+    color:#184a9c;
+
+}
+
+canvas{
+
+    background:white;
+
+    border:3px solid #444;
+
+}
+
+#panel{
+
+    margin-top:15px;
+
+}
+
+input{
+
+    width:350px;
+
+}
+
+button{
+
+    padding:10px 25px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}

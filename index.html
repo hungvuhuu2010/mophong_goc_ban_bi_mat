@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Góc bắn bí mật</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="container">
+
+    <h1>🎯 GÓC BẮN BÍ MẬT</h1>
+
+    <canvas id="gameCanvas" width="1000" height="550"></canvas>
+
+    <div id="panel">
+
+    <label>
+
+        Góc bắn:
+        <span id="angleValue">45</span>°
+
+    </label>
+
+    <input
+        id="angleSlider"
+        type="range"
+        min="5"
+        max="85"
+        value="45">
+
+    <button id="fireBtn">
+        BẮN
+    </button>
+
+    <button id="traceBtn">
+        Quỹ đạo : OFF
+    </button>
+
+    <button id="randomBtn">
+        Mục tiêu ngẫu nhiên
+    </button>
+
+    <button id="teacherBtn">
+        Đáp án
+    </button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
